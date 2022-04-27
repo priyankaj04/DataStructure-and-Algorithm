@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
         int cons = 1;
-        int z = 0;
+        int ans = 0;
         int n;
         int rem, a;
 
@@ -14,10 +14,10 @@ int main()
         {
                 rem = n % 10;
                 a = rem * cons;
-                z += a;
+                ans += a;
                 cons *= 2;
                 n = n / 10;
         }
-        cout << "Decimal number is = " << z;
+        cout << "Decimal number is = " << ans;
         return 0;
 }
