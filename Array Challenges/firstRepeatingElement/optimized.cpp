@@ -20,7 +20,7 @@ int main()
         for (int i = 0; i<N; i++)
                 idx[i] = -1;
 
-        int minidx = INT_MAX;
+        int minidx = INT_MAX; //declaring maximum integer number, to get the minimum index.
 
         for (int i = 0; i < n; i++)
         {
