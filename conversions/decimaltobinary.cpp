@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-        long cons = 1, ans = 0;
+        int cons = 1, ans = 0;
         int n;
         int rem;
 
