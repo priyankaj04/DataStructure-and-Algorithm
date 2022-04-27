@@ -14,7 +14,7 @@ int main()
         for(int i = 0; i < n; i ++)
                 cin >> arr[i];
 
-        const int N = 1e6 + 2;
+        const int N = 1e6 + 2; //Max N contraints.
         int idx[N];
 
         for (int i = 0; i<N; i++)
