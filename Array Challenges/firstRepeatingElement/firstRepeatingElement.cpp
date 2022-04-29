@@ -17,7 +17,7 @@ int main()
                 cin >> arr[i];
 
         int mx = 0;
-        int mnidx = 0; 
+        int minidx = 0; 
         int count = 0;
 
         for (int i = 0; i < n; i++)
@@ -31,7 +31,7 @@ int main()
                 }
                 if(count > mx)
                 {
-                        mnidx = i;
+                        minidx = i;
                 }
                 mx = max(mx, count);
                 count = 0;
