@@ -22,18 +22,18 @@ int main()
                 cin >> arr[i];
 
         int pre = arr[1] - arr[0], mx = 2;
-        int curr, count = 2;
+        int cur, count = 2;
 
         for (int i = 2; i < n; i++)
         {
-                curr = arr[i + 1] - arr[i];
-                if(curr == pre)
+                cur = arr[i + 1] - arr[i];
+                if(cur == pre)
                 {
                         count++;
                 }
                 else
                 {
-                        pre = curr;
+                        pre = cur;
                         count = 2;
                 }
                 mx = max(mx, count);
