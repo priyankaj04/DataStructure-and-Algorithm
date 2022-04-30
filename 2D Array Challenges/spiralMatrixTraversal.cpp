@@ -13,39 +13,39 @@ int main()
                 for(int j = 0; j < n; j++)
                         cin>>a[i][j];
 
-        int rowS = 0;
-        int rowE = m - 1;
-        int colS = 0;
-        int colE = n - 1;
+        int rowSt = 0;
+        int rowEd = m - 1;
+        int colSt = 0;
+        int colEd = n - 1;
         
-        while(rowS <= rowE && colS <= colE)
+        while(rowSt <= rowEd && colSt <= colEd)
         {
                 //for rowS
-                for(int i = colS; i <= colE; i++)
-                        cout<<a[rowS][i]<<"\t";
+                for(int i = colSt; i <= colEd; i++)
+                        cout<<a[rowSt][i]<<"\t";
 
-                rowS++;
+                rowSt++;
                 cout << endl;
 
                 //for colE
-                for(int i = rowS; i <= rowE; i++)
-                        cout<<a[i][colE]<<"\t";
+                for(int i = rowSt; i <= rowEd; i++)
+                        cout<<a[i][colEd]<<"\t";
 
-                colE--;
+                colEd--;
                 cout << endl;
 
                 //for rowE
-                for(int i = colE; i >= colS; i--)
-                        cout<<a[rowE][i]<<"\t";
+                for(int i = colEd; i >= colSt; i--)
+                        cout<<a[rowEd][i]<<"\t";
 
-                rowE--;
+                rowEd--;
                 cout << endl;
 
                 //for colS
-                for(int i = rowE; i >= rowS; i--)
-                        cout<<a[i][colS]<<"\t";
+                for(int i = rowEd; i >= rowSt; i--)
+                        cout<<a[i][colSt]<<"\t";
 
-                colS++;
+                colSt++;
                 cout << endl;
         }
         return 0;
