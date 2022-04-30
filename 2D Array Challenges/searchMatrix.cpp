@@ -13,7 +13,7 @@ int main()
         for(int i=0; i<m; i++)
         {
                 for(int j=0; j<n; j++)
-                        cin >> a[i][j];
+                        cin >> a[i][j]; //Input array elements
         }
 
         int key;
