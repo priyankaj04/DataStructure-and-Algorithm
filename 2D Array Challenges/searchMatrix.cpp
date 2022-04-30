@@ -20,17 +20,17 @@ int main()
         cout << "Enter search element = ";
         cin >> key;
 
-        int row = 0, col = m - 1;
+        int r = 0, c = m - 1;
         bool flag = false;
-        while (row < n && col >= 0)
+        while (r < n && c >= 0)
         {
-                if(a[row][col] == key)
+                if(a[r][c] == key)
                 {
                         flag = true;
                 }
-                else if(a[row][col] > key)
+                else if(a[r][c] > key)
                         col--;
-                else if(a[row][col] < key)
+                else if(a[r][c] < key)
                         row++;
         }
 
