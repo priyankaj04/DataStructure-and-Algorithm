@@ -29,13 +29,13 @@ int main()
                 for(int j = 0; j < y; j++)
                         cin>>b[i][j];
 
-        int ans[m][y];
+        int pd[m][y];
 
         for(int i = 0; i < m; i++)
         {
                 for(int j = 0; j < y; j++)
                 {
-                        ans[i][j] = 0;
+                        pd[i][j] = 0;
                         for(int k = 0; k <n; k++)
                         {
                                 ans[i][j] += a[i][k] * b[k][j];
@@ -47,7 +47,7 @@ int main()
         for(int i = 0; i < m; i++)
         {
                 for(int j = 0; j < y; j++)
-                        cout<<ans[i][j]<<"\t";
+                        cout<<pd[i][j]<<"\t";
                 cout << endl;
         }
         return 0;
