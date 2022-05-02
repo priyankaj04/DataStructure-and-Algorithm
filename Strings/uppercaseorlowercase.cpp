@@ -1,4 +1,4 @@
-//program to convert given string to uppercase and lower case.
+//program to convert given string to uppercase and lowercase.
 #include<iostream>
 #include<algorithm>
 #include<string>
