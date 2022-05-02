@@ -1,0 +1,30 @@
+#include<string>
+
+types of declare  string word:
+1.  string str;
+2.  string str(5, 'n');
+3.  string str = "priyanka";
+
+output a string sentence:
+1.  getline(cin, str);
+
+append two strings:
+1.  str1.append(str2);
+2. str1 + str2;
+3. str1 = str1 + str2;
+
+access elements in string:
+1. str[1];
+
+str.clear(); => used to clear or delete all the elements in string.
+str2.compare(str1) => returns a bool value, true if its equal, false if its not equal.
+str.empty() => returns a bool value, true if string is empty, false if string is not empty.
+str.find("elements") => returns the index of first element.
+str.erase(index, number_of_elements from index); => removes the string elements starts from the given index and ends till the number of given elements.
+str.insert(index, "element") => inserts the element in the given index.
+str.size() => returns the size of string.
+str.length() => returns the length of string.
+str.substring(index, num_of_elements); => gives the elements starts from given index till the number of elements given.
+stoi(str) => converts the numeric string to integer. 
+to_string(number) => converts any datatype to string.
+
