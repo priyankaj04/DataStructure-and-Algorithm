@@ -11,7 +11,7 @@ int main()
 
         char arr[n + 1];
 
-        cin.getline(arr, n);
+        cin.getline(arr, n); // takes input in sentence and includes space also.
         cin.ignore();
 
         int currlen = 0, maxlen = 0;
