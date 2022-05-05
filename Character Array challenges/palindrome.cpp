@@ -1,3 +1,4 @@
+//palindrome or not
 #include<iostream>
 using namespace std;
 
