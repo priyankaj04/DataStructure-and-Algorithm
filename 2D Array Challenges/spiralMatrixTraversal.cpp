@@ -1,4 +1,4 @@
-//traverse the matrix in spiral form.
+//Traverse the matrix in spiral form.
 #include<iostream>
 using namespace std;
 
