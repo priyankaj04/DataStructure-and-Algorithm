@@ -23,14 +23,10 @@ int main()
       int arr[n];
       cout << "Enter array elements = ";
       for (int i = 0; i < n; i++)
-      {
             cin >> arr[i];
-      }
       reversearray(arr, 0, n - 1);
       cout << "\nReverse array elements = ";
       for (int i = 0; i < n; i++)
-      {
             cout << "\t" << arr[i];
-      }
       return 0;
 }
