@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int reversearray(int *arr, int st, int en)
+int reversearray(int arr[], int st, int en)
 {
       if ( st >= en)
       {
