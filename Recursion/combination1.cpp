@@ -46,7 +46,7 @@ int main()
       cout << "Enter a sum value = ";
       cin >> sum;
       vector<int> ds;
-      findCombination(0, ds, 0, arr, n, sum);
+      findCombination(0, ds, 0, arr, n, s
       return 0;
 }
 // time complexity = O(2^t * k); 
