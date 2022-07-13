@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void findCombination( int ind, int target, vector<int> &arr, vector<vector<int>> &ans, vector<int> &ds) 
+void findCombination( int ind, int target, vector<int> &arr, vector<vector<int>> &an
 {
       if(ind == arr.size())
       {
